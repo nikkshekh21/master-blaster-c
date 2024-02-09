@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	float b,h;
+	clrscr();
+	printf("enter triangle base: ");
+	scanf("%f",&b);
+	printf("enter triangle height: ");
+	scanf("%f",&h);
+	printf("base : %.2f\n",b);
+	printf("height : %.2f\n",h);
+	printf("height : %.2f",0.5*b*h);
+	getch();
+}
