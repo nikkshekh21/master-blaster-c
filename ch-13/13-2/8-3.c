@@ -1,7 +1,7 @@
 #include<stdio.h>
 main()
 {
-		int s1,i;
+	int s1,i;
 	printf("enter arry size: ");
 	scanf("%d",&s1);
 	int a[s1];
