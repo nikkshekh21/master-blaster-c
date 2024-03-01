@@ -3,12 +3,12 @@
 #define s scanf
 main()
 {
-	int r,c,i,j;
-	p("enter arry row  size: ");
+	int r,c,i,j,sum=0;
+	p("enter arry row size: ");
 	scanf("%d",&r);
-	
 	p("enter arry column size: ");
 	scanf("%d",&c);
+	
 	
 	int a[r][c];
 	int b[r][c];
@@ -24,8 +24,7 @@ main()
 		p("\n");
 		
 	}
-		
-
+	
 	for(i=0;i<r;i++)
 	{
 		for(j=0;j<c;j++)
@@ -35,16 +34,23 @@ main()
 		p("\n");
     }
     	
-    for(i=0;i<r;i++)
+    	for(i=0;i<r;i++)
 	{
 		for(j=0;j<c;j++)
 		{
 			if(i==0||j==0||i==r-1||j==c-1)
 			{
-				printf("%d ",a[i][j]);
+				sum+=a[i][j];
+				printf("%d ",a[i][j]);	
+		    }
+		    else
+		    {
+		    	printf("  ");
 			}
 		}
-		p("\n");
-    }
+		printf("\n");
+	}
+	printf("the sum of boundary elements of an aaray: %d",sum);
 }
+
     

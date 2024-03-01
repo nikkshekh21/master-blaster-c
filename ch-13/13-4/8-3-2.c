@@ -58,10 +58,21 @@ main()
 		for(j=0;j<c;j++)
 		{
 			d[i][j]=a[i][j]+b[i][j];
+			p("array sum[%d][%d]: %d\n",i,j,d[i][j]);
 		}
 		p("\n");
 		
 	}
+		for(i=0;i<r;i++)
+	{
+		for(j=0;j<c;j++)
+		{
+			p("%d  ",d[i][j]);
+		}
+		p("\n");
+		
+	}
+
 		
 		
 	

@@ -4,10 +4,10 @@
 main()
 {
 	int r,c,i,j;
-	p("enter arry first size: ");
+	p("enter arry row  size: ");
 	scanf("%d",&r);
 	
-	p("enter arry second size: ");
+	p("enter arry column size: ");
 	scanf("%d",&c);
 	int avg[r][c];
 	
@@ -30,7 +30,7 @@ main()
 		}
 		p("\n");
     }
-	int sum=0;
+	float sum=0;
 		p("\n\n----:avg of elements:----\n");
 	for(i=0;i<r;i++)
 	{
@@ -41,8 +41,7 @@ main()
 		p("\n");
 		
 	}
-		p("sum of elements: %d\n",sum);
-		p("averang of elements: %d",sum/(r*c));
+		p("averang of elements: %.2f",sum/(r*c));
 		
 	
     
