@@ -20,7 +20,7 @@ main()
 		}
 	}
 	for(i=0; i<j; i++){
-		printf("%d ",a[i]);
+		printf("\n\n%d ",a[i]);
 	}
 
 	

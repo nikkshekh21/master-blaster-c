@@ -19,7 +19,11 @@ main()
 		sum=sum+a[i];
 		avg=sum/(float)size;
 	}
+<<<<<<< HEAD
 	printf("\nlength of an array: %.2f",avg);
+=======
+	printf("\nlength of an array: %.2d",avg);
+>>>>>>> 3e30b2bb55584d535566f900e3a33ae51bc513ad
 	
 	
 }
