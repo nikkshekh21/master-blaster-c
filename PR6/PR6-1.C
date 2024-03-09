@@ -37,10 +37,5 @@ main()
 	else
 	{
 		printf("...>> this name is not palindrom <<...");
-	}
-    
-		
-	
-	
-	
+	}	
 }
