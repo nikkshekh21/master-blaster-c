@@ -11,6 +11,7 @@ main()
 	}
 	printf("the number in string : %d\n\n\n",len);
 	int count;
+	printf("Frequency of each letter:\n");
 	
 	for(i=0;i<len;i++)
 	{ 
