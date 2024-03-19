@@ -3,9 +3,9 @@
 main()
 {
 	int a;
-//	clrscr();
+	clrscr();
 
-       printf("enter any number: ");
+       printf("Enter any number: ");
        scanf("%d",&a);
        printf("%d * 1 =%d\n",a,a*1);
        printf("%d * 2 =%d\n",a,a*2);
@@ -17,5 +17,5 @@ main()
        printf("%d * 8 =%d\n",a,a*8);
        printf("%d * 9 =%d\n",a,a*9);
        printf("%d * 10 =%d\n",a,a*10);
-     //  getch();
+       getch();
 }
