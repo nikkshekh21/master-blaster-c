@@ -19,7 +19,7 @@ main()
 	  	{
 	  		name[i]=name[i]+32;
 	  	}
-	  	else if(name[i]==32)
+	  	else if (name[i]==32)
 	  	{ 
 	     	if(name[i+1]>=97 && name[i+1]<=122)
 	     	{
@@ -27,7 +27,8 @@ main()
 		 	}
 	    }
 	}
-	for(i=0; i< 20; i++){
+	for(i=0; i< 20; i++)
+	{
 		printf("%c",name[i]);
 	}
 }

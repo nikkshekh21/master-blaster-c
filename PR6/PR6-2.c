@@ -16,7 +16,7 @@ main()
 	for(i=0;i<len;i++)
 	{ 
 		count=1;
-		if(name[i]!=0)
+		if(name[i]!='\0')
 		{
 			for(j=i+1;j<len;j++)
 		{
