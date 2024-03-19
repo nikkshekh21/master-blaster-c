@@ -5,36 +5,36 @@ main()
 {
 	int a,b,c,d;
 	clrscr();
-	p("enter a first value of a : ");
+	p("Enter a first value of a : ");
 	scanf("\n%d",&a);
-	p("enter  a second value of b : ");
+	p("Enter  a second value of b : ");
 	scanf("\n%d",&b);
-	p("enter a third value of c : ");
+	p("Enter a third value of c : ");
 	scanf("\n%d",&c);
-	p("enter a fourth value of d = ");
+	p("Enter a fourth value of d = ");
 	scanf("\n%d",&d);
 	if(a>b)
 	{
 		if(a>c)
 		{
-			if(c>d)
+			if(a>d)
 			{
-				printf("%d is maximum",a);
+				printf("%d is maximum number!!",a);
 			}
 			else
 			{
-				printf("%d is maximum",d);
+				printf("%d is maximum number!!",d);
 			}
 		}
 		else
 		{
 			if(c>d)
 			{
-				printf("%d is maximum",c);
+				printf("%d is maximum number!!",c);
 			}
 			else
 			{
-				printf("%d is maximum",d);
+				printf("%d is maximum number!!",d);
 			}
 		}
 	}
@@ -44,29 +44,24 @@ main()
 		{
 			if(b>d)
 			{
-				printf("%d is maximum",b);
+				printf("%d is maximum number!!",b);
 			}
 			else
 			{
-				printf("%d is maximum",d);
+				printf("%d is maximum number!!",d);
 			}
 		}
 		else
 		{
 			if(c>d)
 			{
-				printf("%d is maximum",c);
+				printf("%d is maximum number!!",c);
 			}
 			else
 			{
-				printf("%d is maximum",d);
+				printf("%d is maximum number!!",d);
 			}
 		}
-
-
-
-
-
 	}
 
 	getch();

@@ -4,10 +4,10 @@ main()
 {
 	int a,b;
 	clrscr();
-	printf("enter first angle: ");
+	printf("Enter first angle: ");
 	scanf("%d",&a);
-	printf("enter second angle: ");
+	printf("Enter second angle: ");
 	scanf("%d",&b);
-	printf("third angle: %d",180-(a+b));
+	printf("Third angle: %d",180-(a+b));
 	getch();
 }

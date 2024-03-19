@@ -3,14 +3,14 @@ main()
 {
 	char name[20];
 	int al=0,al2=0,sy=0,dit=0;
-	printf("create your password:  ");
+	printf("Create your password:  ");
 	scanf("%s",&name);
 	int i,len=0;
 	for(i=0;name[i]!='\0';i++)
 	{
 		len++;
 	}
-	printf("the number in string : %d\n\n\n",len);
+	printf("The number in string : %d\n\n\n",len);
 		if(len>=6)
 		{
 			for(i=0;i<len;i++)

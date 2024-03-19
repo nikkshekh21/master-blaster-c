@@ -8,9 +8,10 @@ main()
 	scanf("%d",&a);
 	printf("enter the second number B: ");
 	scanf("%d",&b);
-	c=a;
-	a=b;
-	b=c;
+	a=a*b;
+	b=a/b;
+	a=a/b;
+	printf("---:Swap the number:---\n");
 	printf("A : %d\n",a);
 	printf("B : %d\n",b);
 	getch();

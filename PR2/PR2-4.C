@@ -4,7 +4,7 @@
 main()
 {
 	char n;
-	clrscr();
+    clrscr();
 	p("enter m = monday\n");
 	p("enter t = tuesday\n");
 	p("enter w = wednesday\n");
@@ -40,9 +40,6 @@ main()
 			p("invalid input");
 
 	      }
-
-
-
 	getch();
 
 

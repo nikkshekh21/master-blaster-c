@@ -8,8 +8,8 @@ main()
 	printf("enter any number = ");
 	scanf("%d",&n);
 	(n%2==0)
-		?p("%d is even",n)
-		:p("%d is odd",n);
+		?p("\n%d is enven number!!",n)
+		:p("\n%d is odd number!!",n);
 	getch();
 
 
