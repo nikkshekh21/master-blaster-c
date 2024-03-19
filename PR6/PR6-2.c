@@ -2,14 +2,14 @@
 main()
 {
 	char name[20];
-	printf("enter you string: ");
+	printf("Enter you string: ");
 	scanf("%s",&name);
 	int i,j,len=0;
 	for(i=0;name[i]!='\0';i++)
 	{
 		len++;
 	}
-	printf("the number in string : %d\n\n\n",len);
+	printf("The number in string : %d\n\n\n",len);
 	int count;
 	printf("Frequency of each letter:\n");
 	

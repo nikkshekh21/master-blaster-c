@@ -2,19 +2,19 @@
 #include<conio.h>
 main()
 {
-	int n,rem,rev;
+	int n,ld,fd,sum=0;
 	clrscr();
 	
-	printf("enter any number: ");
+	printf("Enter any number: ");
 	scanf("%d",&n);
-	rem=n%10;
+	ld=n%10;
 	while(n>=10)
 	{
 		n=n/10;
 	}
-	rev=n;
-	printf("sum of the  first and last digit: %d",rev+rem);
-
+	fd=n;
+	sum=ld+fd;
+	printf(" \nThe sum of the  first and last digit\t: %d",sum);
 	getch();
 	     
 

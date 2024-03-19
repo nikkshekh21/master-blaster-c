@@ -7,7 +7,7 @@ main()
 	
 	for(a=1;a<=5;a++)
 	{
-		printf("%d\t",n);
+		printf("%d ,\t",n);
 		n=n*10+1;
 	}
 	getch();

@@ -19,18 +19,13 @@ main()
 	
 		if(sum==multi)
 	 {
-			printf("%d is the magic number!!",n);
+			printf("\n!! %d is the magic number!!",n);
      }
          else 
          
      {
-     	printf("%d is not magic number!!",n);
+     	printf("\n!! %d is not magic number!!",n);
 	 }
-	    
-    
-
-    
-  
 	getch();
 
 

@@ -2,17 +2,17 @@
 #include<conio.h>
 main()
 {
-	int rev,rem,count=0,a;
+	int rev,rem,count=0,n;
 	clrscr();
 	printf("Enter any number: ");
-	scanf("%d",&a);
-	while(a!=0)
+	scanf("%d",&n);
+	while(n!=0)
 	{
-		rem=a%10;
+		rem=n%10;
 		rev=rev*10+rem;
-		a=a/10;
+		n=n/10;
 		count++;
 	}
-	printf("the total number of digit: %d",count);
-	getch();
+	printf("\nThe total number of digit is: %d",count);
+    getch();
 }

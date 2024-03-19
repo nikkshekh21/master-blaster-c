@@ -2,14 +2,14 @@
 main()
 {
 	char name[20],rev[20];
-	printf("enter you string: ");
+	printf("Enter you string: ");
 	scanf("%s",&name);
 	int i,len=0;
 	for(i=0;name[i]!='\0';i++)
 	{
 		len++;
 	}
-	printf("the number in string : %d\n\n\n",len);
+	printf("The number in string : %d\n\n\n",len);
 	int n=0;
 	
 	for(i=len-1;i>=0;i--,n++)
@@ -32,10 +32,10 @@ main()
 	
 	if(pal==1)
 	{
-		printf("...>> this name is palindrom <<...");
+		printf("...>> YOUR GIVEN STRING IS A PALINDROME.<<...");
 	}
 	else
 	{
-		printf("...>> this name is not palindrom <<...");
+		printf("...>> YOUR GIVEN STRING IS NOT A PALINDROME.<<...");
 	}	
 }
