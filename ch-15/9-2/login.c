@@ -30,7 +30,7 @@ main()
 	int mp=strcmp(pas,rpas);
 	if(cmp==0 && mp==0)
 	{
-		puts("login successful...");
+		puts("Login successful...");
 	}
 	else
 	{
