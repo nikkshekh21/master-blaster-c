@@ -33,14 +33,15 @@ main()
 				}	
 			}
 	    }
-	    else
-	    {
-			printf(" ..YOUR PASSWORD IS NOT STRONG.. ");
-		}
+	    
 		
 		if(al>=1 && al2>=1 && sy>=1 && dit>=1)
 		{
 			printf(" ...YOUR PASSWORD IS STRONG: >>");
+		}
+		else
+	    {
+			printf(" ..YOUR PASSWORD IS NOT STRONG.. ");
 		}
 }
 	

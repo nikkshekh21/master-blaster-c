@@ -7,6 +7,7 @@ main()
 	printf("Enter a last number: ");
 	scanf("%d",&n);
 	printf("%d %d ",a,b);
+	printf("--:fibonacci series:--\n");
 	for(i=3;i<=n;i++)
 	{
 		c=a+b;

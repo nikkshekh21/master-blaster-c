@@ -35,7 +35,7 @@ main()
 	    }
 	}
 		printf("\n\n--:  Your string convert to camelCase :--\n\n");
-	for(i=0; i< 20; i++)
+	for(i=0; i< len ; i++)
 	{
 		printf("%c",name[i]);
 	}
