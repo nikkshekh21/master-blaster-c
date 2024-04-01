@@ -8,25 +8,25 @@ int main()
 	int n,f,se;
 	int ans=0;
 	repit:
-	p("Press the 1 for +\n");
+	p("\nPress the 1 for +\n");
 	p("Press the 2 for -\n");
 	p("Press the 3 for *\n");
     p("Press the 4 for /\n");
     p("Press the 5 for %%\n");
     p("Press the 0 for the exit\n");
     
-    p("Enter your choice: ");
+    p("\n\n--:Enter your choice: ");
     s("%d",&n);
     
     switch(n)
     {
     	case 1:
-    		p("Enter the first number: ");
+    		p("\nEnter the first number: ");
     		s("%d",&f);
     		p("Enter the second number: ");
     		s("%d",&se);
     		ans = calsi(n, f, se);
-    		p("Addition of %d and %d ans:%d\n",f,se,ans);
+    		p("\nAddition of %d and %d ans:= %d\n",f,se,ans);
     			if(n==0)
     				{
     					break;
@@ -34,12 +34,12 @@ int main()
     		goto repit;
     		break;
     	case 2:
-    		p("Enter the first number: ");
+    		p("\n\nEnter the first number: ");
     		s("%d",&f);
     		p("Enter the second number: ");
     		s("%d",&se);
     		ans = calsi(n, f, se);
-    		p("Divition of %d and %d ans: %d\n",f,se,ans);
+    		p("\nDivition of %d and %d ans:= %d\n",f,se,ans);
     			if(n==0)
     				{
     					break;
@@ -47,12 +47,12 @@ int main()
     		goto repit;
     		break;
     	case 3:
-    		p("Enter the first number: ");
+    		p("\n\nEnter the first number: ");
     		s("%d",&f);
     		p("Enter the second number: ");
     		s("%d",&se);
     		ans = calsi(n, f, se);
-    		p("Subtraction of %d and %d ans: %d\n",f,se,ans);
+    		p("\nSubtraction of %d and %d ans:= %d\n",f,se,ans);
     			if(n==0)
     				{
     					break;
@@ -60,12 +60,12 @@ int main()
     		goto repit;
     		break;
     	case 4:
-    		p("Enter the first number: ");
+    		p("\n\nEnter the first number: ");
     		s("%d",&f);
     		p("Enter the second number: ");
     		s("%d",&se);
     		ans = calsi(n, f, se);
-    		p("multiplication of %d and %d ans: %d\n",f,se,ans);
+    		p("\nmultiplication of %d and %d ans:= %d\n",f,se,ans);
     			if(n==0)
     				{
     					break;
@@ -73,12 +73,12 @@ int main()
     			goto repit;
     		break;
     	case 5:
-    		p("Enter the first number: ");
+    		p("\n\nEnter the first number: ");
     		s("%d",&f);
     		p("Enter the second number: ");
     		s("%d",&se);
     		ans = calsi(n, f, se);
-    		p("modues of %d and %d ans: %d \n",f,se,ans);
+    		p("\nmodues of %d and %d ans:= %d \n",f,se,ans);
     			if(n==0)
     				{
     					break;
@@ -113,7 +113,7 @@ int calsi(int n,int f,int se)
 	{ 
 		if(se==0||f==0)
 		{
-			p("You can not divided by o please try again\n");
+			p("\nYou can not divided by o please try again\n");
 		}
 		return f/se;
 	}
