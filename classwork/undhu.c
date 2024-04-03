@@ -31,6 +31,11 @@ main()
 	{
 		printf("\na[%d] : %d",i,a[i]);
 	}
+		for(i=0;i<r;i++)
+	{
+		
+	}
+	
 	
 }
 	
