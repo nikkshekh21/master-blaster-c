@@ -29,5 +29,4 @@ void magic(int n)
      {
      	printf("\n!! %d is not magic number!!",n);
 	 }
-	 magic(n);
 }

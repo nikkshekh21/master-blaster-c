@@ -1,16 +1,18 @@
 #include<stdio.h>
-int  binary(int n,int count);
+int  binary(int n);
  int main()
 {
 	int n;
-	binary(n);
+
 	printf("enter : ");
 	scanf("%d",&n);
+	binary(n);
 	
 	
 }
- int binary(int n,int count)
-{
+ int binary(int n)
+{ 
+	int count=0;
 	if(n%2==0)
 	{
 	printf("%d",'n');
