@@ -51,11 +51,12 @@ void main()
 	system("cls");		
 	for(i=0;i<n;i++)
 	{
- 	printf("\t----:The %d studant record:---- \n\n",i+1);
+ 	printf("\n\t----:The %d studant record:---- \n\n",i+1);
 
-	printf("\n\tID\tNAME\tAGE\tROLE\tCOMPANY NAME\tEXPERIENCE\tCITY\n");	
+	printf("\n\tID\t|NAME\t|AGE\t|ROLE\t|COMPANY NAME\t|EXPERIENCE\t|CITY|\n");
+	printf("\n\t__\t____\t___\t____\t____________\t__________\t____\n");	
 		
-	printf("\n\t%d\t%s\t%d\t%s\t%s\t\t%.1f\t\t%s",s1[i].id,s1[i].name,s1[i].age,s1[i].role,s1[i].company_name,s1[i].experience,s1[i].city);
+	printf("\n\t%d\t|%s\t|%d\t|%s\t|%s\t|\t%.1f\t\t|%s",s1[i].id,s1[i].name,s1[i].age,s1[i].role,s1[i].company_name,s1[i].experience,s1[i].city);
 
    }
 			

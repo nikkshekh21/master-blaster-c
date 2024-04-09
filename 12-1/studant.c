@@ -48,7 +48,7 @@ void main()
 	printf("Enter student city: ");
 	scanf("%[^\n]",&s1[i].city);
 	printf("Enter student per: ");
-	scanf("%d",&s1[i].per);
+	scanf("%f",&s1[i].per);
 	}
 	system("cls");		
 	for(i=0;i<n;i++)
@@ -57,8 +57,9 @@ void main()
 	printf("----:The %d studant record:---- \n\n",i+1);
 
 	printf("\n\tID\tNAME\tAGE\tCOURSE\tSTANDARD\tSCHOOL\tCITY\tPER\n");	
+	printf("\n\t__\t____\t___\t______\t________\t______\t____\t___\n");	
 		
-	printf("\n\t%d\t%s\t%d\t%s\t%d\t%s\t%s\t.2f",s1[i].id,s1[i].name,s1[i].age,s1[i].role,s1[i].company_name,s1[i].experience,s1[i].city);
+	printf("\n\t%d\t%s\t%d\t%s\t%d\t\t%s\t%s\t%.2f",s1[i].id,s1[i].name,s1[i].age,s1[i].course,s1[i].standard,s1[i].school,s1[i].city,s1[i].per);
 
    }
 			
