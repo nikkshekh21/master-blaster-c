@@ -1,0 +1,7 @@
+
+	----:The 1 empoloee record:---- 
+
+	The name of employee: nikk	The role of employee: hfjf
+	----:The 2 empoloee record:---- 
+
+	The name of employee: hdh	The role of employee: dhfh
