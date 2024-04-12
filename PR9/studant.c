@@ -18,9 +18,9 @@ Physics => 84*/
 	struct student 
 	{
 		int Roll_no;
-		float chemistry;
-		float mathematics;
-		float physics;
+		int chemistry;
+		int mathematics;
+		int physics;
 		char name[20];	
 	};
 void main()
@@ -42,33 +42,40 @@ void main()
 	scanf("%[^\n]",&s1[i].name);
 	
 	printf("Enter student chemistry: ");
-	scanf("%f",&s1[i].chemistry);
+	scanf("%d",&s1[i].chemistry);
 	fflush(stdin);
 	printf("Enter student mathematics: ");
-	scanf("%f",&s1[i].mathematics);
+	scanf("%d",&s1[i].mathematics);
 	fflush(stdin);	
 	printf("Enter student physics: ");
-	scanf("%f",&s1[i].physics);
+	scanf("%d",&s1[i].physics);
 
 	}
+	/*Vatsal Mangukiya (124)
+Chemistry => 68
+Mathematics => 96
+Physics => 85
+Total => 249/300
+Percent => 83.00%*/
 	system("cls");		
 	for(i=0;i<n;i++)
 	{	
 	printf("\n\n\t----:The %d studant record:---- \n\n",i+1);
 
-	printf("\n\tNAME\t\tROLLNO|\tCHEMISTRY\tMATHEMATICS\tPHYSICS\t\n");	
-	printf("\n\t____\t\t______\t_________\t___________\t_______\t\n");	
-		
-	printf("\n\t%s\t\t%d\t%.2f\t\t%.2f\t\t%.2f\t",s1[i].name,s1[i].Roll_no,s1[i].chemistry,s1[i].mathematics,s1[i].physics);
-	for(i=0;i<n;i++)
-	{
-   float total=s1[i].chemistry+s1[i].mathematics+s1[i].physics;
-	float per=total/300*100;
-	printf("\n\nTOTAL MARKS: %.2f%%",total")
+	printf("Name: %s(%d)\n",s1[i].name,s1[i].Roll_no);
+	printf("Chemistry => %d\n",s1[i].chemistry);
+	printf("Mathematics => %d\n",s1[i].mathematics);
+	printf("Physics => %d",s1[i].physics);
+	
+   int total=s1[i].chemistry+s1[i].mathematics+s1[i].physics;
+	
+	printf("\n\nTOTAL MARKS: %d/300",total);
+	float per=(float)total/300*100;
    
 	printf("\n\nPERSENTAGE: %.2f%%",per);
     }
-   }
+    
+   
 			
 }
 	
