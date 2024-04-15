@@ -7,7 +7,10 @@ int main()
 {
 	int n,f,se;
 	int ans=0;
-	repit:
+	
+	while(n=1)
+	{
+	
 	p("\nPress the 1 for +\n");
 	p("Press the 2 for -\n");
 	p("Press the 3 for *\n");
@@ -15,10 +18,16 @@ int main()
     p("Press the 5 for %%\n");
     p("Press the 0 for the exit\n");
     
-    p("\n\n--:Enter your choice: ");
+    p("\n\n--:Enter your choice:= ");
     s("%d",&n);
     
-    switch(n)
+    if(n==0)
+    {
+    	break;
+	}
+	else
+	{
+		switch(n)
     {
     	case 1:
     		p("\nEnter the first number: ");
@@ -27,11 +36,7 @@ int main()
     		s("%d",&se);
     		ans = calsi(n, f, se);
     		p("\nAddition of %d and %d ans:= %d\n",f,se,ans);
-    			if(n==0)
-    				{
-    					break;
-					}
-    		goto repit;
+    		
     		break;
     	case 2:
     		p("\n\nEnter the first number: ");
@@ -40,11 +45,7 @@ int main()
     		s("%d",&se);
     		ans = calsi(n, f, se);
     		p("\nDivition of %d and %d ans:= %d\n",f,se,ans);
-    			if(n==0)
-    				{
-    					break;
-					}
-    		goto repit;
+    		
     		break;
     	case 3:
     		p("\n\nEnter the first number: ");
@@ -53,11 +54,7 @@ int main()
     		s("%d",&se);
     		ans = calsi(n, f, se);
     		p("\nSubtraction of %d and %d ans:= %d\n",f,se,ans);
-    			if(n==0)
-    				{
-    					break;
-					}
-    		goto repit;
+    	
     		break;
     	case 4:
     		p("\n\nEnter the first number: ");
@@ -66,11 +63,7 @@ int main()
     		s("%d",&se);
     		ans = calsi(n, f, se);
     		p("\nmultiplication of %d and %d ans:= %d\n",f,se,ans);
-    			if(n==0)
-    				{
-    					break;
-					}
-    			goto repit;
+    		
     		break;
     	case 5:
     		p("\n\nEnter the first number: ");
@@ -79,22 +72,18 @@ int main()
     		s("%d",&se);
     		ans = calsi(n, f, se);
     		p("\nmodues of %d and %d ans:= %d \n",f,se,ans);
-    			if(n==0)
-    				{
-    					break;
-					}
+    			
     		break;
     		default:
     			{
     				p("---:please try again:---\n\n");
-    				goto repit;
-    				if(n==0)
-    				{
-    					break;
-					}
+    			
 				}			  			
 	}
 }
+	}
+}
+    
 int calsi(int n,int f,int se)
 {
 	if(n==1)
